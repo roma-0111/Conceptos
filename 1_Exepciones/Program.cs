@@ -10,6 +10,7 @@
             //Creamos una exepción dentro del try a propósito.
             try
             {
+                //En el try es siempre que donde tiene que ir la posible exepción.
                 int num1 = uno / zero;
             }
             //En caso de haber una excepción se ejecuta el catch
@@ -18,8 +19,12 @@
                 //Mostramos un mensaje que no se hizo la operación y mostramos la exepción que ocurre.
                 Console.WriteLine("No se puede realizar esa operación !!!");
                 Console.WriteLine($"El error es: {e}");
-
-                Console.ReadKey();
+            }
+            finally
+            {
+                //Para esperar y salir
+                Console.WriteLine("Presione cualquier tecla para salir.");
+                Console.ReadKey(true);
             }
         }
     }
