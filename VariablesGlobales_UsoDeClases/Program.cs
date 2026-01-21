@@ -7,6 +7,7 @@ namespace VariablesGlobales_UsoDeClases
     {
         //Algo que sea "public" quiere decir que se puede usar desde donde sea, no tiene restricción, en cambio algo "private" solo se puede usar en el documento mismo.
         //Una "static class" es aquella Clase que se usa sin necesidad de realizar una instancia.
+        //Esto se denomina una clase Global con una Variable global o el uso de Variables globales
         /*private static class Global
         {
             public static string nombre;
